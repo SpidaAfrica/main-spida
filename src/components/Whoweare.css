@@ -1,0 +1,57 @@
+/* WhoWeAre.css */
+
+.who-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+  }
+  
+  .who-image img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .who-text {
+    max-width: 700px;
+    text-align: center;
+  }
+  
+  .who-text h2 {
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .who-text p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 15px;
+  }
+  
+  /* Desktop view */
+  @media (min-width: 992px) {
+    .who-container {
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+    }
+  
+    .who-image,
+    .who-text {
+      flex: 1;
+      max-width: 50%;
+    }
+  
+    .who-text {
+      text-align: left;
+      padding-left: 40px;
+    }
+  }
+  

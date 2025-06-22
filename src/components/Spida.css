@@ -1,0 +1,109 @@
+/* Spida.css */
+
+.spida-container {
+    width: 100%;
+    padding: 40px;
+    background-color: #d1e8cd;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  .spida-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .spida-image-section {
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+  }
+  
+  .spida-image-wrapper {
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%, 0 25%);
+    background-color: #e4f4e1;
+    padding: 20px;
+  }
+  
+  .spida-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .spida-text-section {
+    max-width: 700px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .spida-logo {
+    width: 130px;
+    margin-bottom: 15px;
+  }
+  
+  .spida-heading {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .spida-description {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .spida-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .spida-primary-btn,
+  .spida-secondary-btn {
+    padding: 12px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .spida-primary-btn {
+    background-color: #2e7d32;
+    color: white;
+  }
+  
+  .spida-secondary-btn {
+    border: 1px solid #000;
+    background-color: white;
+    color: black;
+  }
+  
+  /* Desktop view adjustments */
+  @media (min-width: 768px) {
+    .spida-content {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .spida-text-section {
+      text-align: left;
+      padding: 20px;
+    }
+  
+    .spida-buttons {
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+  
+    .spida-primary-btn,
+    .spida-secondary-btn {
+      width: auto;
+    }
+  }
+  

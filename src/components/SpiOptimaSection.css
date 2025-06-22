@@ -1,0 +1,118 @@
+.spioptima-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 40px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .spioptima-text {
+    flex: 1 1 500px;
+    color: #333;
+  }
+  
+  .logo-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .logo-icon {
+    width: 10rem;
+  }
+  
+  .logo-text {
+    font-size: 20px;
+    color: #204d24;
+  }
+  
+  .spioptima-text h1 {
+    font-size: 30px;
+    line-height: 1.3;
+    margin: 20px 0;
+  }
+  
+  .spioptima-text p {
+    line-height: 1.6;
+    margin-bottom: 25px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  
+  .btn {
+    text-decoration: none;
+    padding: 12px 20px;
+    font-size: 15px;
+    border-radius: 4px;
+    transition: background 0.3s;
+    text-align: center;
+    min-width: 180px;
+  }
+  
+  .btn.green {
+    background-color: #32a852;
+    color: white;
+    border: none;
+  }
+  
+  .btn.green:hover {
+    background-color: #288b42;
+  }
+  
+  .btn.outline {
+    border: 1.5px solid #000;
+    color: #000;
+    background: none;
+  }
+  
+  .btn.outline:hover {
+    background-color: #eee;
+  }
+  
+  .spioptima-image {
+    flex: 1 1 400px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .spioptima-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transform: rotate(-3deg);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .spioptima-section {
+      flex-direction: column;
+      padding: 30px 16px;
+    }
+  
+    .spioptima-text h1 {
+      font-size: 24px;
+    }
+  
+    .buttons {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  
+    .spioptima-image img {
+      transform: none;
+      max-width: 100%;
+    }
+  }
+  

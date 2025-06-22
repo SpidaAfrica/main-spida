@@ -1,0 +1,47 @@
+.vision-mission-section {
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .section-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .text-block {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .text-block h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #222;
+  }
+  
+  .text-block p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  /* Responsive: Adjust heading for smaller screens */
+  @media (max-width: 600px) {
+    .section-heading {
+      font-size: 2rem;
+    }
+  
+    .text-block p {
+      font-size: 0.95rem;
+      padding: 0 10px;
+    }
+  }
+  

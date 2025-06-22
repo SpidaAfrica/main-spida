@@ -1,0 +1,113 @@
+/* SpiTractor.css */
+
+.container {
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: #f0f8f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image-section {
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+  }
+  
+  .tractor-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .text-section {
+    max-width: 700px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .heading {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .description,
+  .subheading,
+  .benefit {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .features {
+    list-style: disc;
+    text-align: left;
+    margin: 0 auto 15px auto;
+    max-width: 500px;
+    color: #444;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .primary-btn,
+  .secondary-btn {
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .primary-btn {
+    background-color: #2e7d32;
+    color: white;
+  }
+  
+  .secondary-btn {
+    border: 1px solid #000;
+    background-color: white;
+    color: black;
+  }
+  
+  /* Responsive Layout */
+  @media (min-width: 768px) {
+    .content {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .text-section {
+      text-align: left;
+      padding: 20px;
+    }
+  
+    .buttons {
+      flex-direction: row;
+      justify-content: start;
+    }
+  
+    .primary-btn,
+    .secondary-btn {
+      width: auto;
+    }
+  }
+  
