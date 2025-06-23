@@ -16,11 +16,10 @@ const Footer = () => {
         <div className="footer-column">
           <h3>Quick Links</h3>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Our Solutions</a></li>
-            <li><a href="#">How It Works</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="About">About Us</a></li>
+            <li><a href="/Strategy">Our Strategy</a></li>
+            <li><a href="/Contact">Contact</a></li>
           </ul>
         </div>
 
@@ -28,7 +27,7 @@ const Footer = () => {
           <h3>Contact Us</h3>
           <ul className="contact-info">
             <li><span className="icon">📍</span> Lagos, Nigeria</li>
-            <li><span className="icon">📞</span> +234 XXX XXX XXXX</li>
+            <li><span className="icon">📞</span> +234 7089540773</li>
             <li><span className="icon">📧</span> hello@spida.africa</li>
           </ul>
         </div>
