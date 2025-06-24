@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import logo1 from '../assets/logo1.png';
-import logo2 from '../assets/logo2.png';
+import logo2 from '../assets/spicom.png';
 import logo3 from '../assets/logo3.png';
 import logo from '../assets/logo.png';
 
