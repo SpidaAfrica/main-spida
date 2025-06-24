@@ -36,7 +36,7 @@ const Navbar = () => {
             </div>
             <div className="dropdown-item">
               <img src={logo2} alt="Spida" />
-              <h4>Spida</h4>
+              <h4>Spi-ecommerce</h4>
               <p>Integrated Logistics & e-Marketplace: Moving and Selling Smarter</p>
               <a href="https://spi-ecommerce.spida.africa">Visit Product website →</a>
             </div>
