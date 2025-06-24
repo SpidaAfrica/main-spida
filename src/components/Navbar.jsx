@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav>
       <div className="nav-logo">
-        <img src={logo} alt="Spida Logo" />
+       <a href="/"><img src={logo} alt="Spida Logo" /></a>   
       </div>
 
       <div className={`nav-items ${menuOpen ? 'show' : ''}`}>
