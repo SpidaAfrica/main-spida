@@ -140,5 +140,8 @@
       min-width: unset;
       padding: 0;
     }
+    .dropdown_items img{
+    width:5rem;
+    }
   }
   
