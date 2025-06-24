@@ -60,11 +60,7 @@
     width: 100%;
     z-index: 999;
   }
-  
-  .nav-products:hover .dropdown {
-    display: flex;
-  }
-  
+    
   .dropdown-item {
     justify-content: space-evenly;
     width: 33%;
