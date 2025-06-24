@@ -1,6 +1,6 @@
 import React from "react";
 import "./Spida.css";
-import logo from '../assets/logo2.png';
+import logo from '../assets/spicom.png';
 import img1 from '../assets/wom.png';
 
 const Spida = () => {
